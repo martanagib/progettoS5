@@ -34,6 +34,17 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+header {
+    position:fixed;
+    width: 100vw;
+    top:0;
+}
+.c {
+    margin-top:7vh;
+}
+
+
+
 .navbar {
     display:flex;
     justify-content: space-between;
@@ -232,6 +243,63 @@ h4 {
     
 }
 
-.bookmark {
-    padding-left: 0;
+.articoli button {
+    border-radius: 40px;
+    border: none;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.finale {
+    display:flex;
+}
+
+.aree {
+    margin-top: 7vh;
+    width: 40%;
+    margin-right: 15vw;
+}
+
+.more h6 {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.bottoni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.bottoni button {
+    width:33%;
+    border: 0.5px solid gray;
+    color:gray;
+    background-color: transparent;
+    padding-bottom: 5px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.last ul li {
+    list-style-type: none;
+    padding: 15px;
+    width: 8%;
+    color:gray;
+}
+
+.last ul {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.aree {
+    position:sticky;
 }
