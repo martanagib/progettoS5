@@ -1,0 +1,237 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.lista ul {
+    display:flex;
+}
+
+.lista ul li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.logo {
+    margin-left: 10vw;
+}
+
+.lista {
+    margin-right: 10vw;
+}
+
+header {
+    padding-top: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    background-color: #ffc017;
+
+}
+
+#getS {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+.c {
+    background-color: #ffc017;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    background-color: #ffc017; 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.container button {
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    width: 12vw;
+    height: 4vh;
+}
+
+#curious {
+    font-size: 5rem;
+    margin-bottom: 25px;
+}
+
+.discover {
+    font-size: 1.5rem;
+    margin-bottom: 5vh;
+    margin-right: 25vw;
+}
+
+.trending{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+
+    
+}
+
+.carte {
+    display:flex;
+    width:33%;
+    margin-bottom: 5vh;
+    align-items: stretch;
+   
+    
+}
+
+.numeri {
+    color:rgb(235, 231, 231);
+    font-weight: bold;
+    font-size:2rem;
+    margin-right: 10px;
+}
+
+.carte img {
+  width: 10%;
+}
+
+.card1 img {
+    border-radius: 50%;
+}
+
+.card3 img, .card4 img, .card5 img, .card6 img  {
+    border-radius: 3px;
+    width:5%;
+}
+
+.card2 img {
+    width:5%;
+}
+
+.numerate {
+    border-bottom: 1px solid rgb(235, 231, 231);
+}
+.margine {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-right: 15vw;
+}
+
+.trending {
+    margin-bottom: 2vh;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.carte h5 {
+    font-weight: bold;
+}
+
+.carte small {
+    font-weight: 100;
+    font-size: 0.5rem;
+}
+
+.tempi {
+    color: gray;
+}
+
+small {
+    padding-bottom: 15px;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.stella {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.articoli {
+    margin-top: 7vh;
+    margin-left: 10vw;
+    width: 60%;
+}
+.articolo {
+    display:flex;
+    
+}
+
+
+.immagine img {
+    width: 50%;
+}
+
+.scritte img {
+    border-radius: 50%;
+    width: 5%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.star {
+    height: 20px;
+}
+.scritte {
+    flex-basis: 60%;
+}
+
+h4 {
+    font-weight: bold;
+    
+}
+
+.scritte p {
+    
+        padding-bottom: 5px;
+        display: inline-block;
+        padding-top: 5px;
+    
+}
+
+.bookmark {
+    padding-left: 0;
+}
