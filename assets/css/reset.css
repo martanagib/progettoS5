@@ -38,6 +38,7 @@ header {
     position:fixed;
     width: 100vw;
     top:0;
+    z-index:1;
 }
 .c {
     margin-top:7vh;
@@ -301,5 +302,7 @@ h4 {
 }
 
 .aree {
-    position:sticky;
+    position:sticky !important;
+    top:100px;
+    height: 20vh;
 }
